@@ -24,7 +24,7 @@ Things you may want to cover:
 * ...
 
 # messages　テーブル
-|Columu|Type|Options|
+|Column|Type|Options|
 |------|----|-------|
 |body|text|
 |image|string|
@@ -36,7 +36,7 @@ Things you may want to cover:
 - belongs_to :user
 
 # users　テーブル
-|Columu|Type|Options|
+|Column|Type|Options|
 |------|----|-------|
 |name|string|null :false, add_index :true|
 |email|string|null :false,unique :true|
@@ -47,7 +47,7 @@ Things you may want to cover:
 - has_many :messages
 
 # groupsテーブル
-|Columu|Type|Options|
+|Column|Type|Options|
 |------|----|-------|
 |group_name|string|null :false,unique :true|
 
