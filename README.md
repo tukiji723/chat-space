@@ -26,7 +26,7 @@ Things you may want to cover:
 # messages　テーブル
 |Column|Type|Options|
 |------|----|-------|
-|body|text|
+|text|text|
 |image|string|
 |user_id|integer|null: false,foreign_key: true|
 |group_id|integer|null: false,foreign_key: true|
