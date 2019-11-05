@@ -32,6 +32,10 @@
       line-height: 40px;
       margin-top: 28px;
       padding: 0 20px;
+      &__button {
+        color: $sky_blue;
+        text-decoration: none;
+      }
     }
   }
 
